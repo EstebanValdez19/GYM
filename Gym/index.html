@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio PowerFit</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo PowerFit">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#horarios">Horarios</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <div class="carousel">
+            <div><img src="images/gym1.jpg" alt="Gimnasio 1"></div>
+            <div><img src="images/gym2.jpg" alt="Gimnasio 2"></div>
+            <div><img src="images/gym3.jpg" alt="Gimnasio 3"></div>
+        </div>
+        <h1>Bienvenido a PowerFit</h1>
+        <p>Tu lugar para entrenar y alcanzar tus metas.</p>
+        <a href="#servicios" class="btn">Conoce más</a>
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicios-container">
+            <div class="servicio">
+                <h3>Entrenamiento Personalizado</h3>
+                <p>Programas diseñados exclusivamente para ti.</p>
+            </div>
+            <div class="servicio">
+                <h3>Clases Grupales</h3>
+                <p>Yoga, spinning, crossfit y más.</p>
+            </div>
+            <div class="servicio">
+                <h3>Suplementos</h3>
+                <p>Productos de calidad para tu nutrición.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="horarios">
+        <h2>Horarios</h2>
+        <p>Lunes a Viernes: 6:00 AM - 10:00 PM</p>
+        <p>Sábados y Domingos: 8:00 AM - 8:00 PM</p>
+    </section>
+
+    <section id="precios">
+        <h2>Precios y Promociones</h2>
+        <div class="precios-container">
+            <div class="plan">
+                <h3>Mensual</h3>
+                <p>$500</p>
+                <a href="#contacto" class="btn">¡Únete!</a>
+            </div>
+            <div class="plan">
+                <h3>Trimestral</h3>
+                <p>$1,300</p>
+                <a href="#contacto" class="btn">¡Únete!</a>
+            </div>
+            <div class="plan">
+                <h3>Anual</h3>
+                <p>$4,500</p>
+                <a href="#contacto" class="btn">¡Únete!</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="https://formspree.io/f/xanqjwjy" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+    
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 GymBroPro. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Tidio Chat -->
+    <script src="//code.tidio.co/q0d5hu4kajyvyavez3w0xgkmwgux4hgz.js" async></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+
+
+</body>
+</html>
